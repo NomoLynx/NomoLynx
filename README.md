@@ -6,4 +6,8 @@ The codebase includes `riscv_asm_lib` for RISC-V assembly parsing and code gener
 
 The Rust side of the project also includes `rust_macro` and `rust_macro_internal`, which provide procedural macro support to help generate and simplify Rust code used across the toolchain. These macros are designed to support compiler, parser, and code-generation work in a cleaner and more reusable way during Rust development.
 
+## Conference PPT
+
+- [RustLab 2026 — Rethinking Pattern Matching: Flowcharts and PEG Parsing in a RISC-V C Compiler](Conference%20PPT/Rustlab%20Italy%202026/Rustlab2026.pptx)
+
 This repository is the home for the full project ecosystem, combining the assembler, linker, Clang integration, and Rust macro infrastructure into a single development workspace.
